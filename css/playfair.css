@@ -1,0 +1,222 @@
+html {
+  scroll-behavior:smooth;
+}
+
+body {
+  font-family: 'playfair display';
+  font-size:16px;
+}
+
+h1, p, h2, div {
+  color: rgb(255, 255, 255);
+  
+}
+
+h1 {
+  font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-top: 1px solid rgb(142, 151, 147);
+    padding-top: 20px;
+    margin-top: 20px;
+    
+    
+    
+}
+
+p {
+  font-size:1rem;
+  margin-left:500px;
+  margin-right:500px;
+  line-height:1.5rem;
+  max-width:500px;
+}
+
+
+.slide {
+  width: 100vw;
+  height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 500vw;
+}
+
+.one {
+  background: rgb(18, 22, 25);
+  
+  
+}
+
+.one {
+  background: rgb(5, 26, 36);
+  
+}
+
+.two {
+  background: rgb(169, 197, 202);
+}
+
+.three {
+  background: rgb(5, 26, 36);
+}
+
+.four {
+  background: rgb(169, 197, 202);
+}
+.five {
+  background:url(../img/windmill.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-size: cover;
+    background-position: top center;
+   
+}
+main {
+  display: flex;
+  justify-content: center;
+  
+}
+
+header {
+  position:fixed;
+  background-color:rgb(169, 197, 202);
+  bottom:0;
+  width:100%; 
+  box-shadow: 10px 10px 10px 5px #000000; 
+}
+
+#styles h1, .thin, .italic, .light, .medium, .bold {
+  color:rgb(5, 26, 36);
+  }
+
+.menu li {
+  display:inline;
+  
+}
+
+nav {
+  text-align:center;
+  
+}
+
+.menu li a {
+  text-decoration:none;
+  color: rgb(0, 0, 0);
+  font-family:'Courier New', Courier, monospace;
+  margin:1.5rem;
+  transition:.3s;
+  
+
+}
+
+.menu li a:hover {
+  transform:scale(1.2);
+  color:rgb(0, 0, 0); 
+}
+
+.menu li:last-child {
+  float:right;
+  padding-right:1.5rem;
+}
+section{
+  height:100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+  
+
+.font-variants {
+  font-size:1.5rem;
+  
+  
+}
+
+.light {
+  font-weight: 400;
+  margin:10px;
+  
+}
+
+.medium {
+  font-weight: 700;
+  margin:10px;
+}
+
+.bold {
+  font-weight: 900;
+  margin:10px;
+}
+
+.italic {
+  font-style: italic;
+  margin:10px;
+}
+
+.font-stage {
+  font-size: 30px;
+}
+
+span.alphabet {
+  font-size:2rem;
+  margin:20px;
+  
+}
+
+p.ligatures {
+  font-size:2rem;
+}
+
+#ligatures h1, #ligatures p {
+  font-size:2rem;
+  color:rgb(5, 26, 36);
+  
+}
+
+@media (max-width:1300px) {
+  p { 
+    margin:0 200px;
+  }
+  span.alphabet {
+    font-size:1.5rem;
+  }
+}
+
+@media (max-width:660px) {
+  p {
+    margin: 0 100px;
+  }
+
+  .menu li a {
+    margin:0.4rem;
+  }
+}
+
+
+
+
+/* .wrapper {
+    transform: rotate(90deg) translateY(-100vh);
+    transform-origin: top left;
+  } */
+  /* .outer-wrapper {
+    width: 100vh;
+    height: 100vw;
+    transform: rotate(-90deg) translateX(-100vh);
+    transform-origin: top left;
+    overflow-y: scroll;
+    overflow-x:hidden;
+    position:absolute;
+    scrollbar-width: none;
+    -ms-overflow-style:none;
+  } */
+  
+      /* ::-webkit-scrollbar {
+        display:none;
+      } */
+      

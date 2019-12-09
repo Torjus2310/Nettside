@@ -1,0 +1,209 @@
+* {
+  box-sizing:border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'roboto';
+  font-size:16px;
+}
+
+h1, p, h2, div {
+  color: rgb(255, 255, 255);
+  
+}
+
+h1 {
+  font-size: 2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border-top: 1px solid rgb(255, 255, 255);
+    padding-top: 20px;
+    margin-top: 20px;   
+}
+
+
+
+p {
+  font-size:1rem;
+  margin-left:500px;
+  margin-right:500px;
+  max-width:500px;
+  line-height: 1.5rem;
+}
+
+.slide {
+  width: 100vw;
+  max-height: 100vh;
+  overflow-y:hidden;
+
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  width: 500vw;
+}
+
+.one {
+  background: rgb(5, 26, 36);
+  
+}
+
+.two {
+  background: rgb(169, 197, 202);
+}
+
+.three {
+  background: rgb(5, 26, 36);
+}
+
+.four {
+  background: rgb(169, 197, 202);
+}
+.five {
+  background:url(../img/arktitektur.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+    background-size: cover;
+    background-position: bottom center;
+   
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  
+}
+
+header {
+  position:fixed;
+  background-color: rgb(169, 197, 202);
+  bottom:0;
+  width:100%;
+  box-shadow: 10px 10px 10px 5px #000000;
+}
+#styles h1, .thin, .italic, .light, .medium, .bold {
+  color:rgb(5, 26, 36);
+}
+
+.menu li {
+  display:inline;
+  
+}
+
+nav {
+  text-align:center;
+  
+}
+
+.menu li a {
+  text-decoration:none;
+  color: rgb(0, 0, 0);
+  text-transform:;
+  font-family:'Courier New', Courier, monospace;
+  margin:1.5rem;
+  transition:.3s;
+}
+
+.menu li a:hover {
+  transform:scale(1.2);
+  color:rgb(0, 0, 0);
+}
+
+.menu li:last-child {
+  float:right;
+  padding-right:1.5rem;
+}
+section{
+  height:100vh;
+  overflow-y:hidden;
+  display:flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items:center;
+}
+
+.font-variants {
+  font-size:1.5rem;
+}
+
+.thin {
+  font-weight: 100;
+  margin:10px;
+}
+
+.light {
+  font-weight: 300;
+  margin:10px;
+  
+}
+
+.medium {
+  font-weight: 500;
+  margin:10px; 
+}
+
+.bold {
+  font-weight: 700;
+  margin:10px;
+}
+
+.italic {
+  font-style: italic;
+  margin:10px;
+}
+
+.font-stage {
+  font-size: 30px;
+}
+
+span.alphabet {
+  font-size:2rem;
+  margin:20px;
+  
+}
+
+#ligatures h1, #ligatures p {
+  font-size:2rem;
+  color:rgb(5, 26, 36);
+  
+}
+
+
+@media (max-width:1300px) {
+  p { 
+    margin:0 200px;
+  }
+  span.alphabet {
+    font-size:1.5rem;
+  }
+  .menu li a {
+    margin:0.2rem;
+  }
+}
+
+@media (max-width:660px) {
+  p {
+    margin: 0 100px;
+  }
+
+  .menu li a {
+    margin:0.1rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+      

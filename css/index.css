@@ -1,0 +1,177 @@
+
+/* header {
+    position:fixed;
+    background-color: rgb(119, 98, 41);
+    bottom:0;
+    width:100%;
+  box-shadow: 10px 10px 10px 10px #5e5e5e;
+    
+  } */
+
+  .menu li {
+    display:inline;
+    
+  }
+  
+  .menu li a {
+    text-decoration:none;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:1.5rem;
+    display:inline-block;
+    margin:10px;
+    transition:.3s;
+    
+  
+  }
+  
+  .menu li a:hover {
+    transform:scale(1.2);
+    color:rgb(0, 0, 0);
+    
+  }
+  
+  .menu li:last-child {
+    float:right;
+    padding-right:1.5rem;
+  }
+
+ h1 {
+    Font-size:4rem;
+    color:rgb(169, 197, 202);
+}
+
+.playfairbilde {
+    border: 1px solid rgb(5, 26, 36);
+    display: inline-block;
+    border-radius: 50%;
+    width: 450px;
+    line-height: 450px;
+    text-align: center;
+    background-image:url(../img/PD_stor.png);
+    background-repeat: no-repeat;
+    
+    
+    
+    
+}
+.robotobilde {
+    border: 1px solid rgb(169, 197, 202);
+    display: inline-block;
+    border-radius: 50%;
+    width: 500px;
+    line-height: 500px;
+    text-align:center;
+    background-image:url(../img/Rr.png);
+    background-repeat: no-repeat;
+    background-position-x: -25px;
+    background-position-y: -25px;
+}
+
+
+.playfair h1 {
+    font-family: 'playfair display';
+    color:rgb(5, 26, 36);
+}
+
+.roboto {
+    font-family: 'roboto';
+    border-right: 1px solid rgb(116, 141, 130);
+}
+
+.hover :hover {
+    
+    
+    text-align: center;
+    transition: 0.6s;
+    border-radius:0%;
+    transition: 0.6;
+    
+    
+}
+
+.roboto, .playfair {
+    width:50vw;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.roboto {
+  background-color:rgb(5, 26, 36);
+}
+
+.playfair {
+  background-color: rgb(169, 197, 202);
+}
+
+main {
+    display: flex;
+    background-color: rgb(151, 150, 132);
+    
+}
+
+div a {
+    text-decoration: none;
+}
+
+@media (max-width:1300px) {
+  
+
+    .playfairbilde {
+      border: 1px solid rgb(142, 151, 147);
+      display: inline-block;
+      border-radius: 50%;
+      width: 300px;
+      line-height: 300px;
+      text-align: center;
+      background-image:url(../img/PD_stor.png);
+      background-repeat: no-repeat;
+      background-size: 300px;
+    
+}
+.robotobilde {
+  border: 1px solid rgb(142, 151, 147);
+  border-radius: 50%;
+  width: 300px;
+  line-height: 300px;
+  text-align: center;
+  background-image:url(../img/Rr.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position:center;
+}
+
+@media (max-width:700px) {
+  h1 {
+    font-size:1.5rem;
+  }
+  .playfairbilde {
+    border: 1px solid rgb(142, 151, 147);
+    display: inline-block;
+    border-radius: 50%;
+    width: 200px;
+    line-height: 200px;
+    text-align: center;
+    background-image:url(../img/PD_stor.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+  
+}
+.robotobilde {
+border: 1px solid rgb(142, 151, 147);
+display: inline-block;
+border-radius: 50%;
+width: 200px;
+line-height: 200px;
+text-align: center;
+background-image:url(../img/Rr.png);
+background-repeat: no-repeat;
+background-size: 200px;
+}
+ 
+}
